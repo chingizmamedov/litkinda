@@ -1,0 +1,123 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="y-to.ru" resolutions="1x" timestamp="1567308109500">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3978841197" ref="index"/>
+    <file name="qviz_log_01.css" crc="343013097" ref="qviz_log_01"/>
+    <file name="iefonts_qviz_log_01.css" crc="240633991" ref="qviz_log_01"/>
+    <file name="qviz_zak_01.css" crc="3927174365" ref="qviz_zak_01"/>
+    <file name="iefonts_qviz_zak_01.css" crc="3870893552" ref="qviz_zak_01"/>
+  </folder>
+  <folder name="fonts">
+    <file name="bebasneueregular1.woff" crc="67474154"/>
+    <file name="bebasneue regular1.eot" crc="3875599303"/>
+    <file name="bebasneueregular1.svg" crc="3967358748"/>
+    <file name="ptsans-regular.woff" crc="305456170"/>
+    <file name="pt-sans_[allfont.ru].eot" crc="3833335253"/>
+    <file name="ptsans-regular.svg" crc="418298375"/>
+  </folder>
+  <folder name="assets">
+    <file name="quizconstructor.1.2.min.js" crc="4036419908" seo="true" mt="1535119914000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="museutils.js" crc="340535759" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="whatinput.js" crc="86476730" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="museconfig.js" crc="4286661555" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="webpro.js" crc="4059564322" ref="qviz_log_01:qviz_zak_01"/>
+    <file name="form_check.php" crc="4020933626" ref="qviz_log_01"/>
+    <file name="form_throttle.php" crc="4259590256" ref="qviz_log_01"/>
+    <file name="form_process.php" crc="37464564" ref="qviz_log_01"/>
+    <file name="form-u3384.php" crc="295497137" ref="qviz_log_01"/>
+    <file name="jquery.watch.js" crc="51536988" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="qviz_log_01:qviz_zak_01"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="qviz_log_01:qviz_zak_01"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="qviz_log_01:qviz_zak_01"/>
+    <file name="touchswipe.js" crc="4075097462" ref="qviz_log_01:qviz_zak_01"/>
+    <file name="require.js" crc="7928878" ref="qviz_log_01:qviz_zak_01:index"/>
+    <file name="form-u6297.php" crc="126094405" ref="qviz_zak_01"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="вставленное изображение 1084x483.jpg" crc="3838408008" seo="true" ref="qviz_log_01:qviz_zak_01">
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="ld2.jpg" crc="4099515565" seo="true" ref="qviz_log_01:qviz_zak_01">
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленные-svg-2397x1.svg" crc="447140241" seo="true" ref="qviz_log_01:qviz_zak_01">
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленные svg 2397x1_poster_.png" crc="311144658" ref="qviz_log_01"/>
+    <file name="вставленное изображение 637x711-crop-u3761.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="anna2017.jpg" crc="3815010656" ref="qviz_log_01:qviz_zak_01">
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_log_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u4087.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u5587.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u5636.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u5080.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u5456.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u4721.jpg" crc="462636512" seo="true" ref="qviz_log_01">
+      <caption webpage="qviz_log_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6066.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6106.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6158.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6236.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6285.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6220.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+    <file name="вставленное изображение 637x711-crop-u6195.jpg" crc="462636512" seo="true" ref="qviz_zak_01">
+      <caption webpage="qviz_zak_01" alt=""/>
+    </file>
+  </folder>
+  <file name="qviz_log_01.html" crc="39589395" seo="true" mt="1567307785778" redirect="true"/>
+  <file name="qviz_zak_01.html" crc="363288296" seo="true" mt="1567307767335" redirect="true"/>
+  <file name="index.html" crc="305762241" seo="true" mt="1567303764744" redirect="true"/>
+</manifest>

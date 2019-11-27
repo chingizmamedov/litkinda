@@ -1,0 +1,159 @@
+#contact-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+}
+
+
+.wrapper__contact--dobroezgev {
+    box-shadow: 0px 19px 57px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding-left: 70px;
+    padding-top: 45px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    height: 420px;
+    position: relative;
+    margin-bottom: 50px;
+    background: white;
+}
+.wrapper__contact--dobroezgev > .text {
+    width: 60%;
+    font-family: 'Proxima Nova Cn Th';
+    font-weight: 800;
+    font-style: italic;
+  color: rgb(42, 42, 42);
+  line-height: 1.5;
+    font-size: 24px;
+
+}
+.wrapper__contact--dobroezgev > .name {
+
+  color: rgb(42, 42, 42);
+  line-height: 1.5;
+    font-size: 18px;
+    
+        color: rgb(42, 42, 42);
+    line-height: 1.3;
+    font-size: 18px;
+    text-align: right;
+
+    
+        margin-right: 40%;
+    margin-top: 40px;
+
+}
+.wrapper__contact--dobroezgev > .name > span{
+
+display: block;
+    font-size: 16px;
+    
+    
+    color: #2a2a2a;
+
+    font-family: 'Proxima Nova Rg';
+ 
+}
+
+.wrapper__contact--dobroezgev > .img__dobroezgev {
+    position: absolute;
+    bottom: 0;
+
+    right: 40px;
+}
+
+
+.contact__page--time__work--img {
+    margin-top: 60px;
+}
+
+
+.seo__text--contact {
+    height: 602px;
+    overflow: scroll;
+}
+@media (max-width:1450px) {
+    
+    .feadback__wrapper-block {
+
+    padding-top: 30px;
+    }
+    
+    .wrapper__contact--dobroezgev {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    height: 380px;
+    position: relative;
+}
+    
+    
+    .wrapper__contact--dobroezgev > .img__dobroezgev {
+    right: -30px;
+        height: 460px;
+}
+    
+    #contact-page {
+        padding-top: 50px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+    }
+    
+    .seo__text--contact {
+    height: 492px;
+    overflow: scroll;
+}
+    
+    
+}
+@media (max-width:1200px) {
+    .seo__text--contact {
+    height: 390px;
+    overflow: scroll;
+}
+}
+@media (max-width:768px) {
+    
+    #contact-page {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+    
+    .wrapper__contact--dobroezgev {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    height: auto;
+    position: relative;
+        text-align: center;
+}
+    
+    
+    .wrapper__contact--dobroezgev > .text {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 18px;
+}
+    
+    .wrapper__contact--dobroezgev > .img__dobroezgev {
+    position: relative;
+    height: 250px;
+        margin-bottom: 20px;
+
+}
+   .wrapper__contact--dobroezgev > .name {
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: right;
+    margin-right: inherit;
+}
+    
+    
+    
+}

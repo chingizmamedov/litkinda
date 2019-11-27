@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://itchief.ru/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+
+    <!--    <link rel="stylesheet" href="css/quiz-1.css">-->
+
+    <style>
+        .mobile__menu--btn {
+            float: right;
+            margin-right: 15px;
+        }
+
+        .nav__left.open {
+            display: block;
+
+        }
+
+        @media (max-width: 768px) {
+            .nav__left .ui-outer.open {
+                width: 100%;
+                min-width: 100vw;
+                padding-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay" onclick="close_me()"></div>
+    <!--======================= START: header-top =======================-->
+    <header id="header__main">
+        <div class="row">
+            <div class="col-sm-8 col-md-7 col-lg-5 col-lg-1550">
+                <div class="logo">
+                    <img src="img/logo__header.png" alt="">
+                </div>
+                <button onclick="open_menu()" type="button" id="btn__left--menu" class="navbar__left--menu navbar-toggle collapsed visible-xs-block mobile__menu--btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <div class="office-phone">
+                    <p style="    margin-top: 2px;"><span class="of">Офис в Китае</span> <span class="phone">+86 139 5844 2441</span></p>
+                    <p><span class="of">Офис в России</span> <span class="phone">8-800-7777-188</span></p>
+
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 hidden-xs hidden-sm hidden-md hidden-1550">
+                <div class="track-shipment">
+                    <a href=""><img src="img/header__p.png" alt="" class="img-responsive"> Отследить свой груз</a>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-5 hidden-xs float-right__1220">
+                <div class="search-product">
+                    <form action="">
+                        <input type="text" placeholder="Какой товар вы ищите?" class="search__field"> <button class="btn__search btn__color--hover">НАЙТИ ТОВАР</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--======================= END: header-top =======================-->
+
+
+
+    <!--======================= START: Навигация =======================-->
+
+
+    <div class="nav__left">
+        <div class="ui-outer">
+            <a href="#" class="ui-head hidden-xs">
+                <button type="button" id="btn__left--menu" class="navbar__left--menu navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </a>
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Главная">
+                <i class=""><img src="img/icon__menu/1.png" alt=""></i> &nbsp;<span>Главная</span>
+            </a>
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Услуги по Китаю">
+                <i class=""><img src="img/icon__menu/2.png" alt=""></i> &nbsp;<span>Услуги по Китаю</span>
+            </a>
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Доставка грузов">
+                <i class=""><img src="img/icon__menu/3.png" alt=""></i> &nbsp;<span>Доставка грузов</span>
+            </a>
+
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Каталог товаров">
+                <i class=""><img src="img/icon__menu/4.png" alt=""></i> &nbsp;<span>Каталог товаров</span>
+            </a>
+
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Оптовый город Китая">
+                <i class=""><img src="img/icon__menu/5.png" alt=""></i> &nbsp;<span>Оптовый город Китая</span>
+            </a>
+
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Блог">
+                <i class=""><img src="img/icon__menu/6.png" alt=""></i> &nbsp;<span>Блог</span>
+            </a>
+
+            <a href="#" class="ui-nav" data-toggle="tooltip" data-placement="right" title="Контакты">
+                <i class=""><img src="img/icon__menu/7.png" alt=""></i> &nbsp;<span>Контакты</span>
+            </a>
+
+            <a href="#" class="ui-nav item__authorization" data-toggle="tooltip" data-placement="right" title="Home">
+                <i class=""><img src="img/icon__menu/login.png" alt=""></i> &nbsp;<span>Войти</span></a>
+        </div>
+    </div>
+    <!--======================= END: Навигация =======================-->
+
+
+
+
+
+
+
+    <section class="standart__section blog__section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-5 col-md-3 mobile__float--left">
+                    <h2 class="title__new--h2 title__h2">Блог</h2>
+                    <div class="rubric__block">
+                        <h3 class="">Рубрики</h3>
+                        <ul>
+
+                            <li><a href="#">Интересное в Китае</a></li>
+                            <li><a href="#">Бизнес с Китаем</a></li>
+                            <li><a href="#">Трендовые товары</a></li>
+                            <li><a href="#">Кейсы компании</a></li>
+                            <li><a href="#">Новости таможни</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <h2 class="title__new--h2 title__h2">Пост дня</h2>
+                    <div class="main__blog--post">
+                        <div class="left__blog"></div>
+                        <div class="right__blog">
+                            <p class="title__rubric--name">Название рубрики</p>
+                            <p class="sub__title--right">Что продавать в 2019 году? Наводки для начинающих предпринимателей</p>
+                            <p class="main__post__description--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus facilis rem asperiores enim repellendus, quod aliquam id eaque quos voluptate, delectus vero adipisci inventore consequatur, aperiam, fuga corrupti accusantium veniam!</p>
+                            <div class="row__bottom">
+                                <a href="#" class="btn btn-blog">Читать</a>
+                                <a href="#">Loripsum</a>
+                                <a href="#">Loripsum</a>
+                                <a href="#">Loripsum</a>
+                     
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="blog__post">
+                        <li class="post post-1" style="background: url(../img/blog-img/post/1.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Как общаться с поставщиком?</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                        <li class="post post-2" style="background: url(../img/blog-img/post/2.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Поездка в Шантоу. Работа над ошиблками</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                        <li class="post post-3" style="background: url(../img/blog-img/post/3.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Недоумение иностранцев при работе с Китаем?</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                        <li class="post post-4" style="background: url(../img/blog-img/post/4.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Фотографии Иу и рынка Футье</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                        <li class="post post-5" style="background: url(../img/blog-img/post/5.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Отчет о посещении фабрики Картин</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                        <li class="post post-6" style="background: url(../img/blog-img/post/6.jpg)">
+                            <a href="#">
+                                <p class="name__rubric">Рубрика</p>
+                                <p class="title__rubric">Нужна ли виза для Китая? Как её получить?</p>
+                                <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod suscipit ea unde rem quidem. Omnis doloremque autem facere magni rerum.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-9 col-md-offset-3 ">
+                    <h2 class="title__new--h2 title__h2 seo__title">Информация о странице</h2>
+                    <div class="seo__text">
+                        <p>Вести сотрудничество с Китаем и не знать про менталитет этой страны, правила бизнеса и просто актуальные новости китайского рынка - сложно. Чтобы успешно вести дела и всегда держать руку на пульсе, необходимо быть в курсе современных трендов и веяний, а также знать, что происходит в мире, в том числе и в Китае.</p>
+                        <p>Кто-то скажет, что отслеживать все эти тонкости и нюансы довольно сложно. И будет прав. Для этого мы создали этот блог, из которого Вы сможете узнать про все новости Поднебесной, интересные лайфхаки, мнения экспертов, советы по ведению бизнеса и тренды на рынке. Больше не надо перерывать кучу сайтов в интернете с пометкой бизнес в Китае - блог содержит всю самую актуальную и полезную информацию. Просто почаще заходите в этот раздел, и Вы гарантировано всегда будите в курсе всего, что может оказать влияние на Ваш бизнес.</p>
+
+
+                        <p>Наш блог подразделяется на 6 разделов, в каждом из которых постоянно появляются свежие и интересные статьи на данную тематику, в том числе и новости бизнеса с Китаем. Выбирайте, изучайте, применяйте.</p>
+
+                        <p>1. Интересное в Китае. Новости, которые волнуют весь Китай. Обзоры событий и прогнозы.</p>
+
+                        <p>2. Бизнес с Китаем. Как правильно выстраивать бизнес с Китаем. Статьи, раскрывающие все нюансы и тонкости общения с китайскими партнерами, полезные советы. А также новинки на китайском рынке, значимые события и люди. </p>
+
+                        <p>3. Трендовые товары. Будьте всегда в курсе перспективных и уже успешных ниш. Основные тренды, направления, интересные новинки и лидеры продаж.</p>
+
+                        <p>4. Кейсы компании. Истории успешных запусков, работы над ошибками, нюансы сотрудничества с фабриками и многое другое. Читайте, вдохновляйтесь, учитесь. </p>
+
+                        <p>5. Новости таможни. Самая актуальная информация с таможни. Нововведения, принятые законы и главное - как все это может отразиться на перевозках из Китая. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="logo">
+                        <img src="img/logo__header.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <div class="office-phone">
+                        <p><span class="of">Главный офис в Китае</span> <span class="phone">+86 139 5844 2441</span></p>
+                        <p><span class="of">Офис в России</span> <span class="phone">&nbsp;8-800-7777-188</span></p>
+                        <div class="clear"></div>
+                        <!--
+                        <p class="ft__desc">Копирование материалов с сайта разрешено только <br>
+                            при указании активной обратной ссылки</p>
+-->
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <a href="#" class="btn__nw--3 btn__color--hover">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Javascript files -->
+    <!--        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- fancyBox JS -->
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("[data-fancybox]").fancybox({
+                loop: true
+            });
+        });
+    </script>
+    <!--слайдер слик-->
+
+    <!--    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
+    <script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/slick__slider.js"></script>
+
+
+
+    <!--Chart js-->
+    <script src="js/Chart.min.js"></script>
+    <script src="js/chart__main.js"></script>
+
+    <!--quiz-->
+    <script>
+        $(document).ready(function() {
+            $('.nav-tabs > li a[title]').tooltip();
+            $('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+
+                var $target = $(e.target);
+
+                if ($target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+            $(".next-step").click(function(e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                $active.next().removeClass('disabled');
+                nextTab($active);
+
+            });
+            $(".prev-step").click(function(e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                prevTab($active);
+
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        }
+    </script>
+
+
+</body>
+
+</html>
