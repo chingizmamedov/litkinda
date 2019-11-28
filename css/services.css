@@ -14,6 +14,16 @@
           flex-grow: 1;
 }
 
+.middle-divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .services-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,6 +138,7 @@
   transition: margin .3s;
   z-index: 2;
   background: #fff;
+  color: #2a2a2a;
 }
 
 .services-item:hover .services-item__block {
@@ -174,6 +185,10 @@
 }
 
 .aside-content {
+  position: absolute;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   width: 100%;
 }
 
@@ -284,6 +299,7 @@
 }
 
 .seo-text {
+  position: relative;
   background: #fff;
   padding: 75px 54px 102px;
   margin-bottom: 65px;
@@ -456,6 +472,20 @@
   line-height: 26px;
 }
 
+.seo-btn {
+  display: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 @media screen and (max-width: 1200px) {
   .seo-text {
     margin-bottom: 35px;
@@ -485,12 +515,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .services-title {
+    max-width: 554px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+    font-size: 24px;
+  }
+  .advantage-container {
+    margin-bottom: 15px;
+  }
+  .div-cost {
+    margin-bottom: 30px;
+  }
   #content {
     max-width: 554px;
     margin: auto;
-  }
-  .seo-text {
-    margin-top: 30px;
   }
   .seo-text p {
     font-size: 14px;
@@ -528,9 +568,6 @@
   .col-lg-custom-8 {
     width: auto !important;
   }
-  .services-list {
-    margin-bottom: 5px;
-  }
   .advantage-item {
     height: 85px;
     max-width: 163px;
@@ -544,8 +581,27 @@
     right: 9px;
     top: 7px;
   }
+  .services-list {
+    margin-bottom: 15px;
+  }
+  .services-item {
+    margin-bottom: 10px;
+  }
+  .services-item__block {
+    font-size: 14px;
+    padding: 3px 30px;
+  }
+  .services-item:before {
+    font-size: 55px;
+    line-height: 45px;
+  }
+  .services-wrapper {
+    margin-top: 62px;
+  }
   .services-item__link {
-    display: none;
+    height: 25px;
+    font-size: 11px;
+    padding: 0 32px;
   }
   .get-link {
     width: 170px;
@@ -615,6 +671,97 @@
     right: 26px !important;
     line-height: 17px;
     height: 33px;
+  }
+  .advantage {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .seo-btn {
+    display: block;
+  }
+  .seo-text-inner {
+    height: 53px;
+    width: 215px;
+    overflow: hidden;
+  }
+  .services-item__link {
+    display: none;
+  }
+  .middle-divs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .middle-divs > .row {
+    width: 50%;
+  }
+  .get-link--wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .get-link--wrap .get-link {
+    width: 100%;
+  }
+  .get-link--wrap:last-child {
+    margin-bottom: 0;
+  }
+  .advantage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .advantage > .row {
+    width: 100%;
+  }
+  .advantage-item__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .advantage-item {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  .div-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .div-cost {
+    width: 100%;
+  }
+  .btn-calculate {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .div-wrap .div-play {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=services.css.map */
