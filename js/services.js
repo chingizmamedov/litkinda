@@ -55,6 +55,9 @@ $(function () {
             contentTop = $("#content").offset().top - $(window).scrollTop() - header,
             sidebar = $("#sidebar").offset().top - $(window).scrollTop() - (header + 10)
 
+
+            console.log('contentTopOfBottom', contentTopOfBottom)
+            console.log('side', side)
         if (sidebar < 0 && contentTopOfBottom >= side) {
 
             $("#side").css('top', -sidebar)
@@ -67,13 +70,26 @@ $(function () {
 
         }
 
-        // if (contentTopOfBottom >= side) {
+        if (contentTopOfBottom <= side) {
 
-        //     $("#side").css('top', contentTop)
+            $("#side").css('top', contentHeight - side - 65)
 
-        // }
+        }
 
     })
+
+
+    $(".various").fancybox({
+        // maxWidth    : 600,
+        // maxHeight   : 230,
+        fitToView   : false,
+        width       : '40%',
+        height      : 'auto',
+        autoSize    : true,
+        closeClick  : false,
+        openEffect  : 'none',
+        closeEffect : 'none'
+    });
 
 
 })

@@ -486,6 +486,12 @@
           transform: rotate(45deg);
 }
 
+.fancybox-slide--iframe .fancybox-content {
+  width: 95%;
+  height: auto;
+  max-width: 600px;
+}
+
 @media screen and (max-width: 1200px) {
   .seo-text {
     margin-bottom: 35px;
