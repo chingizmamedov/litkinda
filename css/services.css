@@ -234,8 +234,8 @@
   position: absolute;
   right: 27px;
   top: 14px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 .advantage-item__wrap {
@@ -384,7 +384,6 @@
   font-family: 'Proxima Nova', serif;
   font-weight: bolder;
   color: #fff;
-  z-index: 9;
 }
 
 .div-wrap {
@@ -490,6 +489,12 @@
   width: 95%;
   height: auto;
   max-width: 600px;
+}
+
+@media screen and (max-width: 1450px) {
+  .services-item__block p {
+    font-size: 23px;
+  }
 }
 
 @media screen and (max-width: 1200px) {

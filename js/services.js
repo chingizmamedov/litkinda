@@ -54,25 +54,33 @@ $(function () {
             contentTopOfBottom = $("#content").offset().top - $(window).scrollTop() - header + contentHeight,
             contentTop = $("#content").offset().top - $(window).scrollTop() - header,
             sidebar = $("#sidebar").offset().top - $(window).scrollTop() - (header + 10)
+            sidebarInn = $("#carousel").offset().top - $(window).scrollTop() - (header + 10)
+            console.log("TCL: sidebar", sidebar)
 
 
             console.log('contentTopOfBottom', contentTopOfBottom)
             console.log('side', side)
-        if (sidebar < 0 && contentTopOfBottom >= side) {
+        if ( sidebar + 900 < 0 && contentTopOfBottom >= side ) {
 
-            $("#side").css('top', -sidebar)
+            $("#carousel").css({
+                top: - contentTop + 10,
+                position: 'absolute'
+            })
 
         }
 
-        if (sidebar > 0) {
+        if (sidebar + 900 > 0) {
 
-            $("#side").css('top', 0)
+            $("#carousel").css({
+                top: 0,
+                position: 'relative'
+            })
 
         }
 
         if (contentTopOfBottom <= side) {
 
-            $("#side").css('top', contentHeight - side - 65)
+            // $("#side").css('top', contentHeight - side - 65)
 
         }
 
