@@ -62,8 +62,8 @@ $(function () {
             console.log('side', side)
         if ( sidebar + 900 < 0 && contentTopOfBottom >= side ) {
 
-            $("#carousel").css({
-                top: - contentTop + 10,
+            $("#side").css({
+                top: - sidebarInn + 10,
                 position: 'absolute'
             })
 
@@ -71,7 +71,7 @@ $(function () {
 
         if (sidebar + 900 > 0) {
 
-            $("#carousel").css({
+            $("#side").css({
                 top: 0,
                 position: 'relative'
             })

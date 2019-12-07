@@ -495,6 +495,26 @@
   .services-item__block p {
     font-size: 23px;
   }
+  .get-link p {
+    font-size: 16px;
+  }
+  .get-link__img {
+    width: 154px;
+    top: 0;
+  }
+  .get-link_money .get-link__img {
+    top: unset;
+    bottom: -28px;
+    left: -26px;
+    width: 185px;
+  }
+  .get-link_decloration .get-link__img {
+    z-index: 2;
+    position: absolute;
+    left: -41px;
+    top: -6px;
+    width: 188px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
